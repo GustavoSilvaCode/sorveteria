@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background: url(../media/banner-sorveteria.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+}
+header h1{
+    font-size: 75px;
+    color: #fff;
+    position: absolute;
+    left: 30%;
+    top: 42%;
+}
+.container{
+    display: flex;
+}
+.area-esquerda,
+.area-direita{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.area{
+    padding: 10px;
+}
+.container img{
+    width: 100%;
+    height: 100%;
+}
+.titulo{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: #76ace9;
+}
+.subtitulo{
+    font-size: 44px;
+    font-weight: bold;
+}
+.descricao{
+    font-size: 18px;
+}
+.bloco{
+    flex: 1;
+    display: flex;
+    text-align: center;
+    height: 190px;
+    margin: 60px 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.acai{
+    background-color: #a143ff;
+    background-image: url(../images/açai.png);
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.sorvete{
+    background-color: #26dbff;
+    background-image: url(../images/sorvete.png);
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.picole{
+    background-color: rgb(255, 72, 72);
+    background-image: url(../images/picole.png);
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.biscoitos{
+    background-color: rgb(232, 232, 0);
+    background-image: url(../images/biscoitos.png);
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.item{
+    display: none;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.bloco:hover .item{
+    display: block;
+}
+.rodape{
+    position: relative;
+    background-image: url(../media/fundo-casquinha.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.rodape-titulo{
+    font-size: 54px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.rodape-localizacao{
+    display: flex;
+}
+.area-endereco{
+    background-color: #fff;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    border-radius: 15px;
+    margin: 30px 15px;
+}
+.fale-conosco{
+    background-color: #584422;
+    padding: 5px 25px;
+    margin: 10px 0px;
+    border-radius: 18px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+}
